@@ -11,4 +11,6 @@ edad = prompt("Ingrese su Edad:");
 console.log("Nombre completo:" + nombre + apellido +".");
 console.log("Edad:" + edad + ".");
 
-console.log("Usted vivió aproximadamente:" + edad * 365 + ".");
+let diasVividos = edad * 365
+
+alert("Usted vivió aproximadamente:" + diasVividos + ".");
